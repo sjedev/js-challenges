@@ -1,7 +1,7 @@
 var prompt = require("prompt-sync")();
 
-function evenInArray(arr){
-
+function ascendingOrder(list){
+    
 }
 
-console.log(evenInArray(prompt("S")))
+console.log(ascendingOrder(prompt("Enter a list of integers, separated by ', ': ")))
