@@ -1,7 +1,8 @@
 var prompt = require("prompt-sync")();
 
-function ascendingOrder(list){
-    
+function compareObjects(obj1, obj2){
+    console.log(obj1)
+    console.log(obj2)
 }
 
-console.log(ascendingOrder(prompt("Enter a list of integers, separated by ', ': ")))
+console.log(compareObjects(prompt("Object 1: "), prompt("Object 2: ")))
